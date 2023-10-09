@@ -224,7 +224,7 @@
         </div>
     </footer>
 
-    <section class="wrapper-main">
+<!--     <section class="wrapper-main">
         <form action=<?php htmlspecialchars($_SERVER["PHP_SELF"])?> method="get">
             <label for="name"> Nom </label>
             <input type="text" id="name" name="name" placeholder="Votre Nom"value="<?php $saved ?>"> <br>
@@ -277,7 +277,7 @@
 </body>
     
 
-</html>
+</html> -->
 
 
 
