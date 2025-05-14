@@ -103,6 +103,10 @@ Nav bar Section
   transition: all ease-in-out 200ms;
 }
 
+/* .header-main-nav ul li a:hover:first-child {
+  border-radius: 15% 0% 0% 15% / 30% 30% 30% 30%;
+} */
+
 /*.header-main-nav ul li a:hover:not(.active) {
   color: #a39191; 
 }*/
@@ -884,10 +888,16 @@ button:hover {
   cursor: pointer;
 }
 
-.left_button_header {
-border-radius: 15% 0% 0% 15% / 30% 30% 30% 30% ;
+/* .header-main-nav .left_button_header a  {
+  border-radius: 15% 0% 0% 15% / 30% 30% 30% 30%;
+} */
+
+.left_button_header:hover a  {
+  border-radius: 15% 0% 0% 15% / 30% 30% 30% 30%;
+  transition: all ease-in-out 200ms;
 }
 
-.right_button_header {
-border-radius: 0% 15% 15% 30% / 10% 30% 30% 0%;
+.right_button_header:hover a {
+  border-radius: 0% 15% 15% 30% / 10% 30% 30% 0%;
+  transition: all ease-in-out 200ms;
 }
